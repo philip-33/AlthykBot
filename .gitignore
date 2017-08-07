@@ -1,6 +1,9 @@
 # Virtual Environment files
 ./env/
 
+# ignore settings file with token
+settings.py 
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
