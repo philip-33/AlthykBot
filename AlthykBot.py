@@ -3,6 +3,7 @@
 
 import urllib.request
 import discord
+import settings
 from discord.ext import commands
 from bs4 import BeautifulSoup
 
@@ -14,8 +15,8 @@ baseResultContext = 'https://ffxiv.consolegameswiki.com/wiki/'
 altResultContext = 'https://duckduckgo.com/?q=ffxiv.consolegameswiki.com+'
 #TODO: Prep for production repo using github:
 # Break agent and token into a separate file, then set that file in .gitignore
-userAgent = ''
-clientToken = ''
+userAgent = 'settings.userAgent'
+clientToken = 'settings.clientToken'
 
 @client.event
 async def on_ready():
