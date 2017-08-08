@@ -1,5 +1,13 @@
 # Virtual Environment files
 ./env/
+./bin/
+./local/
+./lib/
+./include/
+pip-selfcheck.json
+
+# Asset Files
+settings.py
 
 # ignore settings file with token
 settings.py 
