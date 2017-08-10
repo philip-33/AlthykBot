@@ -24,7 +24,7 @@ async def on_ready():
     print("Bot Online!")
     print("Name: {}".format(client.user.name))
     print("ID: {}".format(client.user.id))
-    await client.change_presence(game=discord.Game(name='FFXIV4U'))
+    await client.change_presence(game=discord.Game(name='FFXIV...4U'))
 
 @client.command(pass_context=True)
 async def ping(ctx):
