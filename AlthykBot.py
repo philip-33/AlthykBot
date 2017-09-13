@@ -3,8 +3,8 @@
 
 import urllib.request
 import discord
-import settings
 from discord.ext import commands
+import settings
 from bs4 import BeautifulSoup
 
 Client = discord.Client()
