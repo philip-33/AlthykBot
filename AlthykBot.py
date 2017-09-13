@@ -80,5 +80,21 @@ async def wiki(ctx):
     # post the link to the channel
     await client.say(returnMessage)
 
+'''
+Pseudocode for XIVDB search
+
+use terms against XIVDB search database (need to look into this, may just be an API)
+parse results (if it's just an API, build a small template to report results, link to more complete data)
+if there's an exact match, return
+if no exact match, return top 3 suggestions
+'''
+
+'''
+Pseudocode for timers search
+
+Not sure where a good database of timers is beyond garland bell. Not sure if XIVDB has it.
+Just vom the available time, the current server time, the difference, the zone, and the coords
+'''
+
 # The token goes here
 client.run(clientToken)
